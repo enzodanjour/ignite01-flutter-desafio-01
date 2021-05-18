@@ -1,16 +1,8 @@
 # meu_app
 
-A new Flutter project.
+Desafio 01 da rocketseat, ignite, turma 01 de flutter, foi dado o objetivo de:
 
-## Getting Started
+- reestruturar o aplicativo construído durante as aulas, separando os widgets que estão no arquivo `main.dart` afim de melhorar a compreensão do código, isolando as responsabilidades em diferentes arquivos.
 
-This project is a starting point for a Flutter application.
+utilizei o princípio de separar bem o que é constantes, fontes, controllers, da view, a fim de evitar acoplamento desnecessários, agora o aplicativo tem a idéia de fácil manutenção e fácil testabilidade, pois os códigos estão bem separados.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

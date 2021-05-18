@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meu_app/core/text_style.dart';
 import 'package:meu_app/pages/home_page_controller.dart';
 
 class HomePage extends StatefulWidget {
@@ -18,7 +19,7 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: Text(
           "Contagem ${controller.index}",
-          style: TextStyle(color: Colors.white, fontSize: 30),
+          style: TextStylesApp.mainFont,
         ),
       ),
       floatingActionButton: FloatingActionButton(
